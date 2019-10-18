@@ -113,7 +113,7 @@ body {
 }
 
 header {
-  background-color: #6d96e8;
+  background-color: #866de8;
   width: 100%;
   height: 100px;
 }
@@ -122,12 +122,12 @@ header .header-brand {
   font-family: Catamaran;
   font-size: 24px;
   font-weight: 900;
-  color: #fff;
+  color: #111;
+  text-transform: uppercase;
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
-  text-shadow: 2px 2px #111
 }
 
 header nav ul {
@@ -147,6 +147,7 @@ header nav ul li a {
   font-family: Catamaran;
   font-size: 16px;
   color: #111;
+  text-transform: uppercase;
 }
 
 header .header-cases {
@@ -154,10 +155,39 @@ header .header-cases {
 }
 
 @media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
 
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+    header .header-cases {
+      display: block;
+      font-family: Catamaran;
+      font-size: 16px;
+      color: #111;
+      text-transform: uppercase;
+      line-height: 38px;
+      border: 1px solid #111;
+      float: right;
+      margin-right: 40px;
+      margin-top: 30px;
+      padding: 0 20px;
+    }
 }
 
-/*index*/
+/*INDEX*/
 
 .index-banner {
   width: 100%;
@@ -186,13 +216,13 @@ header .header-cases {
 
 .index-banner h1 {
   font-family: Cormorant Garamond;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 100;
   font-style: italic;
-  line-height: 20px;
+  line-height: 40px;
   color: #fff;
   text-align: center;
-  text-shadow: 2px 2px #111
+  text-shadow: 2px 2px 8px #111
 }
 
 .index-links div {
@@ -211,6 +241,34 @@ header .header-cases {
     text-align: center;
     text-transform: uppercase;
   }
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-banner {
+    height: 500px;
+  }
+  
+  .index-banner h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+
+  .index-links div {
+    margin: 10px 10x 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    }
+
+  .index-boxlink-square {
+
+  }
+}
 
 /*FOOTER*/
 
