@@ -153,6 +153,10 @@ header .header-cases {
   display: none;
 }
 
+@media only screen and (min-width: 1000px) {
+
+}
+
 /*index*/
 
 .index-banner {
@@ -241,11 +245,11 @@ footer ul li a {
 }
 
 .footer-sm {
-  width: 60;
+  width: 40px;
   float: right;
 }
 
 .footer-sm img {
-  width: 50%;
+  width: 100%;
   margin-bottom: 10px;
 }
