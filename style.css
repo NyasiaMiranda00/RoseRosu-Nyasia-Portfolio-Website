@@ -274,6 +274,131 @@ header .header-cases {
   }
 }
 
+/*PORTFOLIO*/
+
+.portfolio-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.portfolio-links h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 500;
+  color: #111;
+  text-transform: uppercase;
+
+}
+
+.portfolio-links .portfolio-link {
+float: left;
+width: 230px;
+height: 230px;
+margin: 10px 5px 0px;
+background-color: #e3e3e3;
+}
+
+.portfolio-links .portfolio-link p {
+  padding-top: 45%;
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*IMAGES SIZE*/
+
+.portfolio.html {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.image {
+  width: 200px;
+}
+
+/*ABOUT*/
+
+
+.about-the-author {
+  background-color: #fefefe;
+  padding: 1rem;
+  border: 1px solid #cacaca;
+}
+
+.about-the-author .separator-left {
+  text-align: left;
+}
+
+.about-the-author .separator-left::before, .about-the-author .separator-left::after {
+  display: table;
+  content: ' ';
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.about-the-author .separator-left::after {
+  clear: both;
+}
+
+.about-the-author .separator-left::after {
+  position: relative;
+  width: 5rem;
+  border-bottom: 0.125rem solid #1779ba;
+  margin: 0.3rem auto 0;
+  margin-left: 0;
+}
+
+.about-the-author .author-title {
+  text-transform: uppercase;
+}
+
+.about-the-author .author-social {
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.about-the-author .author-social .fa-stack {
+  display: inline-block;
+}
+
+.about-the-author .author-social .fa-stack.facebook {
+  color: #4c70ba;
+}
+
+.about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
+  color: #3b5998;
+}
+
+.about-the-author .author-social .fa-stack.twitter {
+  color: #83c3f3;
+}
+
+.about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
+  color: #55acee;
+}
+
+.about-the-author .author-social .fa-stack.linkedin {
+  color: #009ee8;
+}
+
+.about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
+  color: #007bb5;
+}
+
+.about-the-author .author-image {
+  border: 1px solid #cacaca;
+}
+
+
+
 /*FOOTER*/
 
 footer {
