@@ -327,81 +327,26 @@ header .header-cases {
 
 /*ABOUT*/
 
-.about-the-author {
-  background-color: #fefefe;
-  padding: 1rem;
-  border: 1px solid #cacaca;
-}
-
-.about-the-author .separator-left {
-  text-align: left;
-}
-
-.about-the-author .separator-left::before, .about-the-author .separator-left::after {
-  display: table;
-  content: ' ';
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-.about-the-author .separator-left::after {
-  clear: both;
-}
-
-.about-the-author .separator-left::after {
-  position: relative;
-  width: 5rem;
-  border-bottom: 0.125rem solid #1779ba;
-  margin: 0.3rem auto 0;
-  margin-left: 0;
-}
-
-.about-the-author .author-title {
+.aboutme-links-h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
   text-transform: uppercase;
-}
-
-.about-the-author .author-social {
   text-align: center;
-  margin-top: 0.7rem;
-  margin-bottom: 0.7rem;
+  padding: 20px;
 }
 
-.about-the-author .author-social .fa-stack {
-  display: inline-block;
+.aboutme-links {
+  flex-basis: 23%;
 }
 
-.about-the-author .author-social .fa-stack.facebook {
-  color: #4c70ba;
+@media only screen and (min-width: 762px) {
+  .aboutme-links-h2 {
+    font-size: 28px;
+    margin: 10px;
+  }
 }
-
-.about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
-  color: #3b5998;
-}
-
-.about-the-author .author-social .fa-stack.twitter {
-  color: #83c3f3;
-}
-
-.about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
-  color: #55acee;
-}
-
-.about-the-author .author-social .fa-stack.linkedin {
-  color: #009ee8;
-}
-
-.about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
-  color: #007bb5;
-}
-
-.about-the-author .author-image {
-  border: 1px solid #cacaca;
-}
-
 /*ABOUT*/
 
 /*DIGITAL*/
@@ -445,43 +390,6 @@ header .header-cases {
 /*DIGITAL*/
 
 /*CONTACT*/
-
-.portfolio-resume-spacing {
-  margin-bottom: 2rem;
-}
-
-.portfolio-resume-wrapper {
-  padding: 2rem 4rem;
-}
-
-.portfolio-resume-headshot {
-  margin-bottom: 2rem;
-  border-radius: 50%;
-}
-
-.portfolio-resume-header {
-  text-transform: uppercase;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e6e6e6;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.portfolio-resume-contact-info {
-  margin-bottom: 0.75rem;
-}
-
-.portfolio-resume-contact-info a {
-  color: #0a0a0a;
-}
-
-.portfolio-resume-contact-info .fa {
-  font-size: 1.4rem;
-  padding-right: 0.8rem;
-  vertical-align: middle;
-  color: #0a0a0a;
-}
-
 
 /*CONTACT*/
 
