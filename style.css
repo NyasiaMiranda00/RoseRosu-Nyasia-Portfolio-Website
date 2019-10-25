@@ -393,6 +393,83 @@ header .header-cases {
 
 /*CONTACT*/
 
+/*WATERCOLOR*/
+.watercolor-painting-links-h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.watercolor-painting-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.watercolor-painting-img {
+  flex-basis: 90%;
+  margin: 10px;
+}
+
+.watercolor-painting-img img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 762px) {
+  .watercolor-painting-links-h2 {
+    font-size: 28px;
+  }
+
+  .watercolor-painting-img {
+    flex-basis: 250px;
+  }
+}
+
+/*WATERCOLOR*/
+
+/*ILLUSTRATION/PAINTING*/
+.illustraction-and-painting-links-h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.illustration-and-painting-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.illustrationr-and-painting-img {
+  flex-basis: 90%;
+  margin: 10px;
+}
+
+.illustration-and-painting-img img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 762px) {
+  .illustration-and-painting-links-h2 {
+    font-size: 28px;
+  }
+
+  .illustration-and-painting-img {
+    flex-basis: 250px;
+  }
+}
+/*ILLUSTRATION/PAINTING*/
+
 /*FOOTER*/
 
 footer {
