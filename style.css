@@ -394,7 +394,7 @@ header .header-cases {
 /*CONTACT*/
 
 /*WATERCOLOR*/
-.watercolor-painting-links-h2 {
+.painting-links-h2 {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 600;
@@ -405,35 +405,35 @@ header .header-cases {
 }
 
 
-.watercolor-painting-links {
+.painting-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.watercolor-painting-img {
+.painting-img {
   flex-basis: 90%;
   margin: 10px;
 }
 
-.watercolor-painting-img img {
+.painting-img img {
   width: 100%;
 }
 
 @media only screen and (min-width: 762px) {
-  .watercolor-painting-links-h2 {
+  .painting-links-h2 {
     font-size: 28px;
   }
 
-  .watercolor-painting-img {
+  .painting-img {
     flex-basis: 250px;
   }
 }
 
 /*WATERCOLOR*/
 
-/*ILLUSTRATION/PAINTING*/
-.illustraction-and-painting-links-h2 {
+/*ILLUSTRATION*/
+.illustration-links-h2 {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 600;
@@ -444,31 +444,31 @@ header .header-cases {
 }
 
 
-.illustration-and-painting-links {
+.illustration-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.illustrationr-and-painting-img {
+.illustration-img {
   flex-basis: 90%;
   margin: 10px;
 }
 
-.illustration-and-painting-img img {
+.illustration-img img {
   width: 100%;
 }
 
 @media only screen and (min-width: 762px) {
-  .illustration-and-painting-links-h2 {
+  .illustration-links-h2 {
     font-size: 28px;
   }
 
-  .illustration-and-painting-img {
+  .illustration-img {
     flex-basis: 250px;
   }
 }
-/*ILLUSTRATION/PAINTING*/
+/*ILLUSTRATION*/
 
 /*FOOTER*/
 
