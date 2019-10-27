@@ -154,7 +154,7 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
-header .header-cases {
+header .header-buy {
   display: none;
 }
 
@@ -176,7 +176,7 @@ header .header-cases {
     line-height: 60px;
   }
 
-    header .header-cases {
+    header .header-buy {
       display: block;
       font-family: Catamaran;
       font-size: 16px;
@@ -470,6 +470,44 @@ header .header-cases {
 }
 /*ILLUSTRATION*/
 
+/*PHOTOGRAPHY*/
+.photograhy-links-h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.photography-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.photograhy-img {
+  flex-basis: 90%;
+  margin: 10px;
+}
+
+.photography-img img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 762px) {
+  .photograhy-links-h2 {
+    font-size: 28px;
+  }
+
+  .photograhy-img {
+    flex-basis: 250px;
+  }
+}
+/*PHOTOGRAPHY*/
+
 /*FOOTER*/
 
 footer {
@@ -498,7 +536,7 @@ footer ul li a {
   line-height: 30px;
 }
 
-.footer-links-cases {
+.footer-links-buy {
   display: none;
 }
 
