@@ -3,36 +3,28 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.promo = 'The most popular books this month.';
   $scope.products = [
   	{
-    	name: 'The Book of Trees',
-    	price: 19,
-    	pubdate: new Date('2014', '03', '08'),
-    	cover: 'img/the-book-of-trees.jpg',
-    	likes: 0,
-    	dislikes: 0
+    	name: 'Never Enough Eyes',
+    	price: 65,
+    	pubdate: new Date('2018', '02', '15'),
+    	cover: 'img/drawing1.jpg',
   	},
   	{
-    	name: 'Program or be Programmed',
-    	price: 8,
-    	pubdate: new Date('2013', '08', '01'),
-    	cover: 'img/program-or-be-programmed.jpg',
-    	likes: 0,
-    	dislikes: 0
+    	name: 'Lily',
+    	price: 100,
+    	pubdate: new Date('2018', '01', '08'),
+    	cover: 'img/painting1.jpg',
   	},
   	{
-    	name: 'Harry Potter & The Prisoner of Azkaban',
-    	price: 11.99,
-    	pubdate: new Date('1999', '07', '08'),
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/b/b4/Harry_Potter_and_the_Prisoner_of_Azkaban_(US_cover).jpg',
-    	likes: 0,
-    	dislikes: 0
+    	name: 'The Girl With The Foxes',
+    	price: 80,
+    	pubdate: new Date('2018', '03', '23'),
+    	cover: 'img/painting6.jpg',
   	},
   	{
-    	name: 'Ready Player One',
-    	price: 7.99,
-    	pubdate: new Date('2011', '08', '16'),
-    	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
-    	likes: 0,
-    	dislikes: 0
+    	name: 'The Girl With The Rainbow Clouds',
+    	price: 75,
+    	pubdate: new Date('2017', '08', '16'),
+    	cover: 'img/painting5.jpg',
   	}
   ];
   $scope.plusOne = function(index) {
