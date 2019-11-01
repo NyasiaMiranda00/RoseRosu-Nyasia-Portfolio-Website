@@ -682,8 +682,8 @@ header .header-buy {
 }
 /*ILLUSTRATION*/
 
-/*PHOTOGRAPHY*/
-.photograhy-links-h2 {
+/*DOODLES*/
+.doodles-links-h2 {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 600;
@@ -694,35 +694,35 @@ header .header-buy {
 }
 
 
-.photography-links {
+.doodles-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.photograhy-img {
+.doodles-img {
   flex-basis: 90%;
   margin: 10px;
 }
 
-.photography-img img {
+.doodles-img img {
   width: 100%;
 }
 
 @media only screen and (min-width: 762px) {
-  .photograhy-links-h2 {
+  .doodles-links-h2 {
     font-size: 28px;
   }
 
-  .photograhy-img {
+  .doodles-img {
     flex-basis: 250px;
   }
 }
-/*PHOTOGRAPHY*/
+/*DOODLES*/
 
-/*MAINCONTROLLER*/
+/*PAGE*/
 
-/*MAINCONTROLLER*/
+/*PAGE*/
 
 /*FOOTER*/
 
