@@ -605,7 +605,7 @@ header .header-buy {
 
 /*CONTACT*/
 
-/*WATERCOLOR*/
+/*PAINTING*/
 .painting-links-h2 {
   font-family: Catamaran;
   font-size: 28px;
@@ -642,7 +642,7 @@ header .header-buy {
   }
 }
 
-/*WATERCOLOR*/
+/*PAINTING*/
 
 /*ILLUSTRATION*/
 .illustration-links-h2 {
@@ -720,9 +720,43 @@ header .header-buy {
 }
 /*DOODLES*/
 
-/*TEST*/
+/*PHOTOGRAPHY*/
+.photography-links-h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
 
-/*TEST*/
+
+.photography-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.photography-img {
+  flex-basis: 90%;
+  margin: 10px;
+}
+
+.photography-img img {
+  width: 400%;
+}
+
+@media only screen and (min-width: 762px) {
+  .photography-links-h2 {
+    font-size: 28px;
+  }
+
+  .photography-img {
+    flex-basis: 250px;
+  }
+}
+/*PHOTOGRAPHY*/
 
 /*FOOTER*/
 
