@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html ng-ap class= "no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"
     <title>Nyasia Miranda: Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900/Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!-- *Begin AngularJs* -->
+    <script src="js/vendor/angular-1.7.8/angular.min.js"></script>
+    <script src="js/vendor/angular-1.7.8/angular-animate.min.js"></script>
+    <script src="js/vendor/angular-1.7.8/angular-route.min.js"></script>
+<!-- *End AngularJs* -->
+
+<!-- *Begin Datetables.net -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/zf/dt-1.10.20/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.20/datatables.min.js"></script>
+<!-- *End Datetables.net* -->
+
+<!-- *Begin Font Awesome*
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+-->
+    <!-- The font Awesome code below is several revisions back.
+    https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
+    I discovered that it would work from an article on stack overflow. all code should at some point be updated to reflect the last calling syntax for font awesome -->
+
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<!-- *End Fontawesome* -->
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation.css">
+
+
     <link rel="stylesheet" href="style.css">
-  </head>
+    <link rel="stylesheet" href="css/subnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about-the-author.css">
+
+    </head>
   <body>
+
+  <!-- *Begin Nav* -->
+  <!-- *End Nav* -->
 
 <!-- *Begin Header -->
     <header>
@@ -24,73 +60,79 @@
     </header>
 <!-- *End Header -->
 
-    <main>
-          <div class="three-column-footer-contact-form-container">
-      <footer class="three-column-footer-contact-form" data-equalizer data-equalize-by-row="true">
-        <div class="footer-left" data-equalizer-watch>
-          <div class="baseline">
-            <div class="contact-details">
-              <h6>Contact details</h6>
-              <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> 01234 567890</p>
-              <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</a></p>
-              <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Street, City, County, Country</p>
+
+<!-- *Begin Test-->
+
+<!-- *Begin Test -->
+<br></br>
+<br></br>
+<br></br>
+
+<!-- *Begin Footer -->
+      <footer class="marketing-site-footer">
+      <div class="grid-x grid-padding-x">
+          <div class="medium-4 cell">
+            <h4 class="marketing-site-footer-name">ET-710</h4>
+            <p>Building and maintaining websites.</p>
+            <ul class="menu marketing-site-footer-menu-social simple">
+              <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="medium-4 cell">
+             <h4 class="marketing-site-footer-title">Contact Info</h4>
+            <div class="marketing-site-footer-block">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>Queensborough Community College<br>Bayside, NY 11364</p>
             </div>
-            <div class="newsletter">
-              <div class="input-group">
-                <h6>Sign up for our newsletter</h6>
-                <input class="input-group-field" type="email" placeholder="Email address">
-              </div>
-              <a class="button expanded" href="#">Submit</a>
+            <div class="marketing-site-footer-block">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p>718.631.6262</p>
+            </div>
+            <div class="marketing-site-footer-block">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <p>mlawrence@qcc.cuny.edu</p>
             </div>
           </div>
-         </div>
-        <div class="footer-center" data-equalizer-watch>
-          <div class="baseline">
-            <div class="newsletter">
-              <h6>Contact form</h6>
-              <div class="input-group">
-                <input class="input-group-field" type="text" placeholder="Name">
-                <input class="input-group-field" type="email" placeholder="Email address">
-                <textarea placeholder="Message"></textarea>
+          <div class="large-4 cell">
+            <h4 class="marketing-site-footer-title">Photos</h4>
+              <div class="grid-x grid-padding-y">
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
               </div>
-              <a class="button expanded" href="#">Submit</a>
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
+              </div>
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
+              </div>
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
+              </div>
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
+              </div>
+          <div class="large-4 medium-6 small-12 cell">
+                <img src="https://placehold.it/75" alt="" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="footer-right" data-equalizer-watch>
-          <div class="baseline">
-            <img class="thumbnail" src="http://placehold.it/100">
-            <h6>Opening times</h6>
-            <p>Mon - Fri 9:00am - 5:00pm</p>
-            <p>Sat 9:00am - 8:00pm</p>
-            <p>Sun 9:00am - 4:00pm</p>
-            <div class="social">
-              <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </footer>
+  <!-- *End Footer -->
 
-    </main>
-
-
-
-  <!-- *Begin Footer -->
-    <div>
+  <!-- *Begin Footer* -->
       <footer>
           <ul class="footer-links-main">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="doodles.html">Doodles</a></li>
             <li><a href="buy.html">Buy</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
-          <ul class="footer-links-buy">
-            <li></li>
+          <ul class="footer-links-cases">
+            <li><p></p></li>
             <li><a href="NYASIA MIRANDA- LATEST WORK"></a></li>
             <li><a href="TRADITIONAL - ART PORTFOLIO"></a></li>
             <li><a href="ROSEROSU - INSTAGRAM"></a></li>
@@ -108,8 +150,12 @@
             </a>
           </div>
       </footer>
-    </div>
-<!-- *End Footer -->
+<!-- *End Footer* -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
