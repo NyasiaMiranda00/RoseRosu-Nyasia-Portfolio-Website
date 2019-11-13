@@ -541,7 +541,17 @@ header .header-buy {
   }
 }
 /*PHOTOGRAPHY*/
-
+/*Test*/
+* {
+  margin: 0;
+  padding: 0;
+}
+  .move-me {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+/*Test*/
 /*FOOTER*/
 footer {
   width: calc(108% - 98px);
