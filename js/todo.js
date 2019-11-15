@@ -2,13 +2,20 @@ angular.module('todoApp', [])
   .controller('TodoListController', function() {
     var todoList = this;
     todoList.todos = [
-      {text:'learn AngularJS', done:true},
-      {text:'build an AngularJS app', done:false}];
+      {name:'Jane Jones', done:true, commentDate:'November 15, 2019', email:'jane@yahoo.com', comment:'wow this is cool stuff'},
+      {name:'Joe Smith', done:true, commentDate:'November 15, 2019', email:'joe@yahoo.com', comment:'Digital rocks!' }];
+
+
+
 
     todoList.addTodo = function() {
-      todoList.todos.push({text:todoList.todoText, done:false});
-      todoList.todoText = '';
+      todoList.todos.push({name:todoList.todoName, done:false, commentDate:'today', email:'jane@yahoo.com', comment:'wow this is cool stuff'});
+      todoList.todoName = '';
+      todoList.todoComment = '';
     };
+
+
+
 
     todoList.remaining = function() {
       var count = 0;
@@ -17,6 +24,8 @@ angular.module('todoApp', [])
       });
       return count;
     };
+
+
 
     todoList.archive = function() {
       var oldTodos = todoList.todos;
