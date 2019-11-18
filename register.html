@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html ng-ap class= "no-js" lang="en" dir="ltr">
+<html ng-ap="spaApp" class= "no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <title>Nyasia Miranda: Portfolio</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900/Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  </head>
+  <body>
+    <embed src="Tokyo Ghoul A - Glassy Sky (FULL) AmaLee ver.mp3" autostart="true" loop="true" width="2" height="0">
+    </embed>
+    <noembed>
+    <bgsound src="Tokyo Ghoul A - Glassy Sky (FULL) AmaLee ver.mp3" loop="infinite">
+    </noembed>
 
 <!-- *Begin AngularJs* -->
     <script src="js/vendor/angular-1.7.8/angular.min.js"></script>
@@ -32,14 +41,25 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/foundation.css">
 
-
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/subnav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/product-card.css">
+    <link rel="stylesheet" href="row main-links.css">
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/message.css">
+
+
+    </head>
+  <body>
+
+  <!-- *Begin Nav* -->
+  <!-- *End Nav* -->
 
 <!-- *Begin Header -->
     <header>
@@ -55,35 +75,52 @@
     </header>
 <!-- *End Header -->
 
-<main>
+<br></br>
+<br></br>
+<br></br>
+<!-- *Test -->
+
+        <div id="noCognitoMessage" class="configMessage" style="display: none;">
+            <div class="backdrop"></div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">No Cognito User Pool Configured</h3>
+                </div>
+                <div class="panel-body">
+                    <p>There is no user pool configured in <a href="/js/config.js">/js/config.js</a>. You'll configure this in Module 2 of the workshop.</p>
+                </div>
+            </div>
+        </div>
 
 
-  <div class="wrapper">
-    <h2 class="aboutme-links-h2"></h2>
-  </div>
+        <section class="form-wrap">
+            <h1>Register</h1>
+            <form id="registrationForm">
+              <input type="email" id="emailInputRegister" placeholder="Email" pattern=".*" required>
+              <input type="password" id="passwordInputRegister" placeholder="Password" pattern=".*" required>
+              <input type="password" id="password2InputRegister" placeholder="Confirm Password" pattern=".*" required>
 
-  <section class="aboutme-links">
-     <a href="img/aboutme.jpg" class="digital-img">
-       <img src="img/aboutme.jpg" alt="snowqueen3 image">
-     </a>
-  </section>
-
-
-</main>
-
+              <input type="submit" value="Confirm">
+            </form>
+        </section>
+<!-- *Test* -->
 
 
-  <!-- *Begin Footer -->
+
+
+
+<br></br>
+<!-- *Begin Footer* -->
       <footer>
           <ul class="footer-links-main">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="doodles.html">Doodles</a></li>
+            <li><a href="register.html">Register</a></li>
             <li><a href="buy.html">Buy</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <ul class="footer-links-cases">
-            <li></li>
+            <li><p></p></li>
             <li><a href="NYASIA MIRANDA- LATEST WORK"></a></li>
             <li><a href="TRADITIONAL - ART PORTFOLIO"></a></li>
             <li><a href="ROSEROSU - INSTAGRAM"></a></li>
@@ -102,7 +139,22 @@
           </div>
       </footer>
     </div>
-<!-- *End Footer -->
+<!-- *End Footer* -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/contact-panel.js"></script>
+
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+
+<script src="js/spa.js"></script>
 
   </body>
 </html>
