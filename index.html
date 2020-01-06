@@ -10,11 +10,6 @@
 
   </head>
   <body>
-    <embed src="Tokyo Ghoul A - Glassy Sky (FULL) AmaLee ver.mp3" autostart="true" loop="true" width="2" height="0">
-    </embed>
-    <noembed>
-    <bgsound src="Tokyo Ghoul A - Glassy Sky (FULL) AmaLee ver.mp3" loop="infinite">
-    </noembed>
 
 <!-- *Begin AngularJs* -->
     <script src="js/vendor/angular-1.7.8/angular.min.js"></script>
@@ -58,15 +53,75 @@
 
 <!-- *Begin Header -->
     <header>
-      <a href="index.html" class="header-brand">RoseRosu</a>
-      <nav>
-        <ul>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="contact.html">Contact</a></li>
+      <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+
+        <ul class="vertical menu" data-accordion-menu>
+          <li><a href="#">SERVICES</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">Brand</a></li>
+              <li><a href="#">Web Apps</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+             </ul>
+          </li>
+          <li><a href="#">PRODUCTS</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">Product 1</a></li>
+              <li><a href="#">Product 2</a></li>
+              <li><a href="#">Product 3</a></li>
+             </ul>
+           </li>
+          <li><a href="#">CITIES</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">London</a></li>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">Paris</a></li>
+             </ul>
+          </li>
+         </ul>
+        <ul class="vertical menu">
+          <li class="off-canvas-menu-item"><a href="#">Tour</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Support</a></li>
         </ul>
-        <a href="buy.html" class="header-buy">Buy</a>
-      </nav>
+        <ul class="vertical menu">
+           <li><a href="#">Journal</a></li>
+           <li><a href="#">FAQ</a></li>
+           <li><a href="#">Terms & Conditions</a></li>
+           <li><a href="#">Careers</a></li>
+           <li><a href="#">Students</a></li>
+         </ul>
+        <ul class="menu simple social-links">
+          <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+              <a class="nav-bar-logo"><img class="logo" src="https://placehold.it/150x30"></a>
+            </div>
+            <div class="nav-bar-right">
+              <ul class="menu">
+
+                <li>
+                <li>
+                  <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+                    <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+                    <div class="hamburger">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                    </div>
+                  </button>
+                </li>
+              </ul>
+          </div>
+        </div>
     </header>
 <!-- *End Header -->
 
@@ -147,8 +202,6 @@
         </section>
       </main>
   <!-- *Begin Section -->
-
-<br></br>
 
 <!-- *News Image Gallery* -->
 <div class="news-image-gallery-container">
