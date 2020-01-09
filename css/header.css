@@ -48,9 +48,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.6rem;
-  color: #fefefe;
+  color: #17E2E3;
   text-transform: uppercase;
-  background-color: #1781E3;
+  background-color: #6d06cb;
   transition: background-color 0.2s ease-in;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@
 }
 
 .multilevel-offcanvas {
-  background: #222b31;
+  background: #6d06cb;
   padding: 20px;
   color: #1781E3;
 }
